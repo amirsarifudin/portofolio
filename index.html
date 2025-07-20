@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio profesional Amir Sarifudin - Web Developer dan Ahli Forensik" />
+  <meta name="author" content="Amir Sarifudin" />
+  <title>Amir Sarifudin - Web Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f8;
+      color: #333;
+    }
+    header {
+      background: url('header-background.jpg') center/cover no-repeat;
+      color: #1d3557;
+      text-align: center;
+      padding: 4rem 1rem 6rem;
+      position: relative;
+    }
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #1d3557;
+      margin-top: 20px;
+    }
+    .navbar {
+      background: #1d3557;
+    }
+    .navbar-nav .nav-link {
+      color: #fff !important;
+      margin-left: 1rem;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #a8dadc !important;
+    }
+    section {
+      padding: 60px 0;
+    }
+    .section-title {
+      color: #1d3557;
+      margin-bottom: 40px;
+    }
+    .card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .contact-container {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      max-width: 800px;
+      margin: auto;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin: 15px 0;
+    }
+    .contact-item i {
+      color: #457b9d;
+    }
+    footer {
+      background: #1d3557;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    @media (max-width: 768px) {
+      header img {
+        width: 100px;
+        height: 100px;
+      }
+      .card {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1 data-aos="fade-down">Web Developer</h1>
+    <p class="lead" data-aos="fade-up">PORTOFOLIO</p>
+    <img src="gambar/amir.jpeg" alt="Foto Amir Sarifudin" data-aos="zoom-in" />
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Amir Sarifudin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skill">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certifikat">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tech">Tech Stack</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About section -->
+  <section id="about">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center section-title">About Me</h2>
+      <p class="text-center">Hi! 👋 I'm Amir Sarifudin, a web developer, web pentester, and digital forensics enthusiast passionate about secure, efficient, and user-friendly applications. I also explore fire detection systems, automation, and enjoy music while staying up to date on tech trends. Let's connect and build the future together! 🔒🚀</p>
+    </div>
+  </section>
+
+  <!-- CV Section -->
+  <section id="cv">
+    <div class="container" data-aos="zoom-in">
+      <h2 class="text-center section-title">Curriculum Vitae</h2>
+      <div class="text-center">
+        <iframe src="Amir_Sarifudin_CV.pdf" width="100%" height="600px" style="border: none;"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services, Skills, Certificates, Projects, Tech Stack (Ditambahkan) -->
+  <section id="services" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Service</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+        <h5>Website Development</h5>
+        <p>Build creative and efficient websites for your business needs.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-shield-check fa-3x text-primary mb-3"></i>
+        <h5>Web Security</h5>
+        <p>Security audits and web forensics to protect your data.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-user-shield fa-3x text-primary mb-3"></i>
+        <h5>Consultation</h5>
+        <p>Providing the best solution for your website data security.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skill" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Skill</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <i class="bi bi-github fa-3x text-primary mb-3"></i>
+        <h5>Github</h5>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-window fa-3x text-primary mb-3"></i>
+        <h5>FrontEnd</h5>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-database-lock fa-3x text-primary mb-3"></i>
+        <h5>BackEnd</h5>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-bootstrap fa-3x text-primary mb-3"></i>
+        <h5>Boostrap</h5>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-vector-pen fa-3x text-primary mb-3"></i>
+        <h5>Corel Draw</h5>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-lightning-charge-fill fa-3x text-primary mb-3"></i>
+        <h5>Pentester WEB</h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="certifikat" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Certificate</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="c.png" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title">Dicoding Academy</h5>
+            <p class="card-text">C language programming.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="aws.png" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title">Dicoding Academy</h5>
+            <p class="card-text">Cloud Practitioner Essentials.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="jv.png" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title">Dicoding Academy</h5>
+            <p class="card-text">javascript language programming.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="cc.jpg" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title">DPC PPMI Jakarta Barat</h5>
+            <p class="card-text">WEBINAR BE AN EXPERT CONTENT CREATOR.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="desain.jpg" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title">DPC PPMI Jakarta Barat</h5>
+            <p class="card-text">WEBINAR BASIC DESIGN DEVELOP CONTENT WITH CANVA.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="blk.png" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">CERTIFICATE OF COMPETENCE.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="project" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Project Example</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="utama.png" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title">Web Marketplace</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="kedua.png" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title">Login Marketplace</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="buy.png" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title">Buyer view in marketplace</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="login.png" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title">Univercity Login</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="hm.png" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title">Home</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="mhs.png" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title">Student</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="dsn.png" class="card-img-top" alt="Web Marketplace">
+          <div class="card-body">
+            <h5 class="card-title">Lecturer</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tech" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Tech Stack</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <i class="bi bi-filetype-php fa-3x text-primary mb-3"></i>
+        <h5>PHP</h5>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-filetype-html fa-3x text-primary mb-3"></i>
+        <h5>HTML</h5>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-filetype-css fa-3x text-primary mb-3"></i>
+        <h5>CSS</h5>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-filetype-js fa-3x text-primary mb-3"></i>
+        <h5>Java Script</h5>
+      </div>
+      <div class="col-md-4">
+        <i class="fa-solid fa-c fa-3x text-primary mb-3"></i>
+        <h5>C</h5>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-filetype-jsx fa-3x text-primary mb-3"></i>
+        <h5>React</h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="Skill2" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Operating System</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <i class="fa-brands fa-windows fa-3x text-primary mb-3"></i>
+        <h5>Windows</h5>
+      </div>
+      <div class="col-md-4">
+        <i class="fa-brands fa-ubuntu fa-3x text-primary mb-3"></i>
+        <h5>Ubuntu</h5>
+      </div>
+      <div class="col-md-4">
+        <i class="fab fa-linux fa-3x text-primary mb-3"></i>
+        <h5>Kali Linux</h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact section -->
+  <section id="contact">
+    <div class="contact-container" data-aos="fade-up">
+      <h2 class="text-center">Contact</h2>
+      <div class="contact-item"><i class="fas fa-user"></i><p>Amir Sarifudin</p></div>
+      <div class="contact-item"><i class="fas fa-envelope"></i><p><a href="mailto:amirsarifudin960@gmail.com">amirsarifudin960@gmail.com</a></p></div>
+      <div class="contact-item"><i class="fas fa-map-marker-alt"></i><p>Indonesia</p></div>
+      <div class="contact-item"><i class="fab fa-instagram"></i><p><a href="https://www.instagram.com/amir_srdn/" target="_blank">Instagram</a></p></div>
+      <div class="contact-item"><i class="fab fa-x"></i><p><a href="https://twitter.com/Amir_srdn" target="_blank">twitter</a></p></div>
+      <div class="contact-item"><i class="bi bi-linkedin"></i><p><a href="https://www.linkedin.com/in/amir-sarifudin-476642276/" target="_blank">LinkedIn</a></p></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Amir Sarifudin. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
