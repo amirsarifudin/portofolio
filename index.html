@@ -33,6 +33,70 @@
       border: 4px solid #1d3557;
       margin-top: 20px;
     }
+    #projectlink {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#projectlink h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #343a40;
+}
+
+#projectlink h5 {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+#projectlink p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  padding: 30px 20px;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.project-card .btn {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.project-card .btn:hover {
+  background-color: #1d3557;
+  transform: scale(1.05);
+}
+
+@media (max-width: 767.98px) {
+  #projectlink h2 {
+    font-size: 1.5rem;
+  }
+
+  #projectlink p {
+    font-size: 0.9rem;
+  }
+}
+
     .navbar {
       background: #1d3557;
     }
@@ -317,6 +381,46 @@
           <div class="card-body">
             <h5 class="card-title">Lecturer</h5>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="projectlink" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Project Link</h2>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card text-center h-100">
+          <a href="https://kelompok-1.great-site.net/?i=2" target="_blank" class="btn btn-primary mb-3">Click Link</a>
+          <h2>Web Marketplace</h2>
+          <h5>Description</h5>
+          <p>The technology I use is PHP, HTML, CSS, JavaScript, React, and Bootstrap. The interface is simple and fresh for easy user interaction.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card text-center h-100">
+          <a href="https://amirsarifudin.github.io/tokokedua/" target="_blank" class="btn btn-primary mb-3">Click Link</a>
+          <h2>Store Food</h2>
+          <h5>Description</h5>
+          <p>Built with HTML, CSS, and JavaScript. Display is elegant, simple, and easy to understand with clear product information.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card text-center h-100">
+          <a href="https://amirsarifudin.github.io/produkrekomen/" target="_blank" class="btn btn-primary mb-3">Click Link</a>
+          <h2>Shop LifeStyle</h2>
+          <h5>Description</h5>
+          <p>Simple and clear product display using HTML, CSS, and JS. Aimed to match user’s desired style with clean layout.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card text-center h-100">
+          <a href="https://amirsarifudin.github.io/my-project/" target="_blank" class="btn btn-primary mb-3">Click Link</a>
+          <h2>Web Service</h2>
+          <h5>Description</h5>
+          <p>Information site using HTML, CSS, and JavaScript. Clean and modern layout with user-friendly design.</p>
         </div>
       </div>
     </div>
